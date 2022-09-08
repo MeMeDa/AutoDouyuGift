@@ -30,7 +30,7 @@ headers = {
 
 def send_message_list(message_list: list, sc_key: str) -> None:
     raw_message = '\n'.join(message_list)
-    requests.get(serve_base_url + sc_key + '.send?text=' + raw_message)
+    requests.get(serve_base_url + sc_key + '.send?title=autogift&desp=' + raw_message)
 
 
 def format_cookie(cookie_str: str) -> dict:
