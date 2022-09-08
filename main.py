@@ -5,7 +5,7 @@ import os
 base_url = 'https://www.douyu.com/'
 backpack_uri = 'japi/prop/backpack/web/v1'
 send_gift_uri = 'japi/prop/donate/mainsite/v1'
-serve_base_url = 'https://sc.ftqq.com/'
+serve_base_url = 'https://sctapi.ftqq.com/'
 
 room_id = os.environ['ROOMID']
 cookie = os.environ['COOKIE']
